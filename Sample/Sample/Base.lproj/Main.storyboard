@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="shb-Tx-tw3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e22-B8-1Kk">
+                                <rect key="frame" x="66" y="120" width="150" height="50"/>
+                                <color key="backgroundColor" red="0.98552006479999998" green="0.44446370010000003" blue="0.56848728660000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="BrQ-nU-Nni"/>
+                                    <constraint firstAttribute="width" constant="150" id="qhF-4R-K8Q"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="9"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nqd-xe-egm">
+                                <rect key="frame" x="16" y="120" width="40" height="40"/>
+                                <color key="backgroundColor" name="selectedTextBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="2Cw-7L-dTt"/>
+                                    <constraint firstAttribute="width" constant="40" id="WH4-PL-cwu"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nfQ-rk-tvr">
+                                <rect key="frame" x="319" y="230" width="40" height="40"/>
+                                <color key="backgroundColor" name="selectedTextBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="4td-uv-iPJ"/>
+                                    <constraint firstAttribute="width" constant="40" id="Khh-s4-o8a"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="de2-Ls-xnr"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="hII-T3-npE"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RKb-yt-6h5">
+                                <rect key="frame" x="109" y="230" width="200" height="90"/>
+                                <color key="backgroundColor" red="0.40000000000000002" green="0.80000000000000004" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="18g-7u-MG6"/>
+                                    <constraint firstAttribute="width" constant="200" id="mZ4-PZ-WRM"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="9"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="nfQ-rk-tvr" secondAttribute="trailing" constant="16" id="9dw-Ln-43J"/>
+                            <constraint firstItem="Nqd-xe-egm" firstAttribute="leading" secondItem="shb-Tx-tw3" secondAttribute="leading" constant="16" id="Cpu-eE-ykg"/>
+                            <constraint firstItem="e22-B8-1Kk" firstAttribute="leading" secondItem="Nqd-xe-egm" secondAttribute="trailing" constant="10" id="J7o-tM-Ttr"/>
+                            <constraint firstItem="Nqd-xe-egm" firstAttribute="top" secondItem="shb-Tx-tw3" secondAttribute="top" constant="120" id="PVp-3G-cqL"/>
+                            <constraint firstItem="nfQ-rk-tvr" firstAttribute="top" secondItem="shb-Tx-tw3" secondAttribute="top" constant="230" id="Q8s-p4-IQ2"/>
+                            <constraint firstItem="nfQ-rk-tvr" firstAttribute="leading" secondItem="RKb-yt-6h5" secondAttribute="trailing" constant="10" id="jxZ-jZ-hCH"/>
+                            <constraint firstItem="e22-B8-1Kk" firstAttribute="top" secondItem="Nqd-xe-egm" secondAttribute="top" id="qgF-bg-YNh"/>
+                            <constraint firstItem="nfQ-rk-tvr" firstAttribute="top" secondItem="RKb-yt-6h5" secondAttribute="top" id="zET-HP-lCZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="leftBubble" destination="e22-B8-1Kk" id="lrK-ix-Ufn"/>
+                        <outlet property="rightBubble" destination="RKb-yt-6h5" id="GVP-hd-Zu7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

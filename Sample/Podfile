@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'Sample' do
+	pod "ChatMenu"
+end

@@ -89,13 +89,13 @@ public extension ChatMenu {
         }
 
         fileprivate lazy var _backgroundView: UIImageView = {
-            let view = UIImageView(image: UIImage(named: "menu-bubble-bg"))
+            let view = UIImageView(image: UIImage(named: "menu-bubble-bg", in: Bundle.myBundle, compatibleWith: nil))
             view.contentMode = .scaleToFill
             return view
         }()
 
         fileprivate lazy var _littleBubbleView: UIImageView = {
-            let image: UIImage? = self._direction == .left ? UIImage(named: "menu-bubble-little-right") : UIImage(named: "menu-bubble-little-left")
+            let image: UIImage? = self._direction == .left ? UIImage(named: "menu-bubble-little-right", in: Bundle.myBundle, compatibleWith: nil) : UIImage(named: "menu-bubble-little-left", in: Bundle.myBundle, compatibleWith: nil)
             let view = UIImageView(image: image)
             view.contentMode = .scaleToFill
             return view
@@ -618,6 +618,12 @@ fileprivate extension _ScaleForActivatedButton {
         addTarget(self, action: #selector(_ScaleForActivatedButton._switchToNormal), for: .touchDragOutside)
         addTarget(self, action: #selector(_ScaleForActivatedButton._switchToActivated), for: .touchDown)
         addTarget(self, action: #selector(_ScaleForActivatedButton._switchToActivated), for: .touchDragInside)
+    }
+}
+
+extension Bundle {
+    static var myBundle: Bundle {
+        return Bundle(for: ChatMenu.Controller.self)
     }
 }
 

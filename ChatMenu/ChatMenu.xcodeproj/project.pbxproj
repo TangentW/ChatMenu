@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA5C89091F3F6BE900DF3ABD /* ChatMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B948D1F3F02BB006B942B /* ChatMenu.swift */; };
 		BAD08BC21F3F6070009711B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAD08BC11F3F6070009711B9 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -131,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA5C89091F3F6BE900DF3ABD /* ChatMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

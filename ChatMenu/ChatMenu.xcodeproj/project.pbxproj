@@ -7,33 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA6E19E21F3F350F00967CC7 /* menu-bubble-bg.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BA6E19DF1F3F350F00967CC7 /* menu-bubble-bg.pdf */; };
-		BA6E19E31F3F350F00967CC7 /* menu-bubble-little-left.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BA6E19E01F3F350F00967CC7 /* menu-bubble-little-left.pdf */; };
-		BA6E19E41F3F350F00967CC7 /* menu-bubble-little-right.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BA6E19E11F3F350F00967CC7 /* menu-bubble-little-right.pdf */; };
-		BA6E19E61F3F353D00967CC7 /* Images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA6E19E51F3F353D00967CC7 /* Images.bundle */; };
+		BAD08BC21F3F6070009711B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAD08BC11F3F6070009711B9 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BA6E19D91F3F34DC00967CC7 /* Images.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Images.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA6E19DB1F3F34DC00967CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA6E19DF1F3F350F00967CC7 /* menu-bubble-bg.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "menu-bubble-bg.pdf"; sourceTree = "<group>"; };
-		BA6E19E01F3F350F00967CC7 /* menu-bubble-little-left.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "menu-bubble-little-left.pdf"; sourceTree = "<group>"; };
-		BA6E19E11F3F350F00967CC7 /* menu-bubble-little-right.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "menu-bubble-little-right.pdf"; sourceTree = "<group>"; };
-		BA6E19E51F3F353D00967CC7 /* Images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Images.bundle; sourceTree = "<group>"; };
 		BA8B94801F3F0295006B942B /* ChatMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChatMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8B94841F3F0295006B942B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA8B948C1F3F02BB006B942B /* BundleTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleTool.swift; sourceTree = "<group>"; };
 		BA8B948D1F3F02BB006B942B /* ChatMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMenu.swift; sourceTree = "<group>"; };
+		BAD08BC11F3F6070009711B9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BA6E19D61F3F34DC00967CC7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BA8B947C1F3F0295006B942B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -44,23 +28,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BA6E19DA1F3F34DC00967CC7 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				BA6E19DF1F3F350F00967CC7 /* menu-bubble-bg.pdf */,
-				BA6E19E01F3F350F00967CC7 /* menu-bubble-little-left.pdf */,
-				BA6E19E11F3F350F00967CC7 /* menu-bubble-little-right.pdf */,
-				BA6E19DB1F3F34DC00967CC7 /* Info.plist */,
-			);
-			path = Images;
-			sourceTree = "<group>";
-		};
 		BA8B94761F3F0295006B942B = {
 			isa = PBXGroup;
 			children = (
-				BA6E19E51F3F353D00967CC7 /* Images.bundle */,
 				BA8B94821F3F0295006B942B /* ChatMenu */,
-				BA6E19DA1F3F34DC00967CC7 /* Images */,
 				BA8B94811F3F0295006B942B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +40,6 @@
 			isa = PBXGroup;
 			children = (
 				BA8B94801F3F0295006B942B /* ChatMenu.framework */,
-				BA6E19D91F3F34DC00967CC7 /* Images.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,9 +47,9 @@
 		BA8B94821F3F0295006B942B /* ChatMenu */ = {
 			isa = PBXGroup;
 			children = (
-				BA8B948C1F3F02BB006B942B /* BundleTool.swift */,
 				BA8B948D1F3F02BB006B942B /* ChatMenu.swift */,
 				BA8B94841F3F0295006B942B /* Info.plist */,
+				BAD08BC11F3F6070009711B9 /* Images.xcassets */,
 			);
 			path = ChatMenu;
 			sourceTree = "<group>";
@@ -97,23 +67,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BA6E19D81F3F34DC00967CC7 /* Images */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BA6E19DC1F3F34DC00967CC7 /* Build configuration list for PBXNativeTarget "Images" */;
-			buildPhases = (
-				BA6E19D51F3F34DC00967CC7 /* Sources */,
-				BA6E19D61F3F34DC00967CC7 /* Frameworks */,
-				BA6E19D71F3F34DC00967CC7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Images;
-			productName = Images;
-			productReference = BA6E19D91F3F34DC00967CC7 /* Images.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 		BA8B947F1F3F0295006B942B /* ChatMenu */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA8B94881F3F0295006B942B /* Build configuration list for PBXNativeTarget "ChatMenu" */;
@@ -140,10 +93,6 @@
 			attributes = {
 				LastUpgradeCheck = 0900;
 				TargetAttributes = {
-					BA6E19D81F3F34DC00967CC7 = {
-						CreatedOnToolsVersion = 8.3.2;
-						ProvisioningStyle = Automatic;
-					};
 					BA8B947F1F3F0295006B942B = {
 						CreatedOnToolsVersion = 9.0;
 					};
@@ -162,40 +111,22 @@
 			projectRoot = "";
 			targets = (
 				BA8B947F1F3F0295006B942B /* ChatMenu */,
-				BA6E19D81F3F34DC00967CC7 /* Images */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BA6E19D71F3F34DC00967CC7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA6E19E31F3F350F00967CC7 /* menu-bubble-little-left.pdf in Resources */,
-				BA6E19E41F3F350F00967CC7 /* menu-bubble-little-right.pdf in Resources */,
-				BA6E19E21F3F350F00967CC7 /* menu-bubble-bg.pdf in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BA8B947E1F3F0295006B942B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA6E19E61F3F353D00967CC7 /* Images.bundle in Resources */,
+				BAD08BC21F3F6070009711B9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BA6E19D51F3F34DC00967CC7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BA8B947B1F3F0295006B942B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -206,44 +137,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		BA6E19DD1F3F34DC00967CC7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 9PA6Z533LV;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				INFOPLIST_FILE = Images/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = personal.tangent.Images;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		BA6E19DE1F3F34DC00967CC7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 9PA6Z533LV;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				INFOPLIST_FILE = Images/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = personal.tangent.Images;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		BA8B94861F3F0295006B942B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -402,14 +295,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BA6E19DC1F3F34DC00967CC7 /* Build configuration list for PBXNativeTarget "Images" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BA6E19DD1F3F34DC00967CC7 /* Debug */,
-				BA6E19DE1F3F34DC00967CC7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
 		BA8B947A1F3F0295006B942B /* Build configuration list for PBXProject "ChatMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

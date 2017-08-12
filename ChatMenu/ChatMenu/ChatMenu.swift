@@ -89,17 +89,13 @@ public extension ChatMenu {
         }
 
         fileprivate lazy var _backgroundView: UIImageView = {
-            let backgroundImage: UIImage? = .chatMenuImage(name: "menu-bubble-bg")
-            let height = backgroundImage?.size.height ?? 0
-            let width = backgroundImage?.size.width ?? 0
-            let resizedBackgroundImage = backgroundImage?.resizableImage(withCapInsets: UIEdgeInsets(top: 0.5 * height, left: 0.5 * width, bottom: 0.5 * height, right: 0.5 * width))
-            let view = UIImageView(image: resizedBackgroundImage)
+            let view = UIImageView(image: UIImage(named: "menu-bubble-bg"))
             view.contentMode = .scaleToFill
             return view
         }()
 
         fileprivate lazy var _littleBubbleView: UIImageView = {
-            let image: UIImage? = self._direction == .left ? .chatMenuImage(name: "menu-bubble-little-right") : .chatMenuImage(name: "menu-bubble-little-left")
+            let image: UIImage? = self._direction == .left ? UIImage(named: "menu-bubble-little-right") : UIImage(named: "menu-bubble-little-left")
             let view = UIImageView(image: image)
             view.contentMode = .scaleToFill
             return view

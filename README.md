@@ -1,6 +1,6 @@
 ![ChatMenu](http://7xsfp9.com1.z0.glb.clouddn.com/image.png)
 # ChatMenu
-[![](https://img.shields.io/badge/language-Swift3.0-orange.svg)](https://github.com/TangentW/ChatMenu)
+[![](https://img.shields.io/badge/language-Swift4.0-orange.svg)](https://github.com/TangentW/ChatMenu)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![CocoaPods](https://img.shields.io/cocoapods/v/ChatMenu.svg)](https://github.com/TangentW/ChatMenu)
 
@@ -9,7 +9,7 @@
 
 ## Requirements
 * iOS 9.0 or higher
-* Swift 3.0
+* Swift 4.0
 
 ## Demo
 Run the `Sample` project in Xcode to see `ChatMenu` in action.
